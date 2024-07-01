@@ -6,19 +6,19 @@ const assert = require("assert");
     const filePath = "./mocks/emptyFile-invalid.csv";
     const expected = new Error(error.FILE_LENGTH_ERROR_MESSAGE);
     const result = File.csvToJson(filePath);
-    assert.rejects(result, expected);
+    await assert.rejects(result, expected);
   }
   {
     const filePath = "./mocks/header-invalid.csv";
     const expected = new Error(error.FILE_FIELDS_ERROR_MESSAGE);
     const result = File.csvToJson(filePath);
-    assert.rejects(result, expected);
+    await assert.rejects(result, expected);
   }
   {
     const filePath = "./mocks/fiveItems-invalid.csv";
     const expected = new Error(error.FILE_LENGTH_ERROR_MESSAGE);
     const result = File.csvToJson(filePath);
-    assert.rejects(result, expected);
+    await assert.rejects(result, expected);
   }
   {
     const filePath = "./mocks/threeItems-valid.csv";
