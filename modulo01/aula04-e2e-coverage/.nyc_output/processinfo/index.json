@@ -1,0 +1,1 @@
+{"processes":{"9b899ad2-226a-4a37-a3dd-1bec38f67e86":{"parent":null,"children":["be62542a-4215-4604-a5a1-90cc7c8684b0"]},"be62542a-4215-4604-a5a1-90cc7c8684b0":{"parent":"9b899ad2-226a-4a37-a3dd-1bec38f67e86","children":[]}},"files":{"/Users/matheus/js-expert-2024/modulo01/aula04-e2e-coverage/src/api.js":["be62542a-4215-4604-a5a1-90cc7c8684b0"]},"externalIds":{}}
